@@ -3,6 +3,7 @@ import Router from "vue-router";
 import InfoHome from "@/components/InfoHome.vue";
 import InfoAbout from "@/components/InfoAbout.vue";
 import InfoServices from "@/components/InfoServices.vue";
+import InfoFilim from "@/components/InfoFilim.vue";
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
       path: "/services",
       name: "InfoServices",
       component: InfoServices,
+    },
+    {
+      path: "/filim",
+      name: "InfoFilim",
+      component: InfoFilim,
     },
   ],
 });

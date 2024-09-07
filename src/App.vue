@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <InfoNavigation />
     <router-view />
   </div>
 </template>
@@ -7,9 +8,11 @@
 <script>
 // import InfoHome from "./components/InfoHome.vue";
 // import InfoAbout from "./components/InfoAbout.vue";
+import InfoNavigation from "./components/InfoNavigation.vue";
 export default {
   name: "App",
   components: {
+    InfoNavigation,
     // InfoHome,
     // InfoAbout,
   },
